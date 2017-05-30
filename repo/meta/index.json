@@ -2,17 +2,21 @@
   "version": "2.0.0",
   "packages": [
     {
-      "versions": {
-        "0.0.1": "0"
-      },
-      "name": "kubernetes",
-      "currentVersion": "0.0.1",
-      "description": "Kubernetes",
-      "framework": true,
-      "tags": [
-        "kubernetes"
+      "currentVersion":"v0.7.2-v1.1.5-alpha",
+      "description":"Kubernetes is an open source system for managing containerized applications across multiple hosts, providing basic mechanisms for deployment, maintenance, and scaling of applications.",
+      "framework":true,
+      "name":"kubernetes",
+      "selected":false,
+      "tags":[
+        "mesosphere",
+        "framework",
+        "pod",
+        "label",
+        "paas"
       ],
-      "selected": false
+      "versions":{
+        "v0.7.2-v1.1.5-alpha":"0"
     }
- ]
+  }
+]
 }
